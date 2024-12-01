@@ -10,3 +10,4 @@ function print (){
 console.log(w);
 }
 print()
+// hoisting happens here due to gec block
