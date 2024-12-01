@@ -1,17 +1,7 @@
-let arr =[23,56,78,90,44,33,54];
-
-for (let i = 0; i <1; i++) 
-    {
-    console.log(arr);
-    
-}
-
-
-let arr2  =[23,78,90,65]
-for (let i in arr2) {
-    console.log(i);
-}
+ // in js arrays are as objs 
+ // here we can add multiple data types
+  let arrays =['my', 'own', 'code', 2,4,5,6,true ,false];
+  console.log(arrays[1]);
+console.log(typeof(arrays));
+//execution context
  
-for (let i of arr2) {
-    console.log(i);
-}
